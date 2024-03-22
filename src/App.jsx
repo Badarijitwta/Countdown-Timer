@@ -1,10 +1,10 @@
 import "./App.css";
-import DateWrapper from "./components/DateWrapper/index";
+import Timer from "./components/Timer/index";
 
 export default function App() {
   return (
     <div className="app">
-      <DateWrapper />
+      <Timer />
     </div>
   );
 }
