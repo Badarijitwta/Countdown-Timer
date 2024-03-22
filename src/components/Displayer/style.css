@@ -1,0 +1,21 @@
+.display-wrapper-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0.4rem;
+}
+
+.display-wrapper-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-wrapper-main>* {
+  width: 6rem;
+  height: 1rem;
+  border-radius: 15px;
+  margin: 0.3rem;
+}
