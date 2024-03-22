@@ -17,7 +17,7 @@
   font-weight: bold;
 }
 
-@media (min-width:201px) and (max-width:400px) {
+@media (min-width:201px) {
   .button-main {
     flex-direction: row;
 
@@ -26,4 +26,18 @@
   .button-main>* {
     height: 1.7rem;
   }
+}
+
+@media (min-width:540px) {
+  .button-main {
+    flex-direction: row;
+
+  }
+
+  .button-main>* {
+    height: 3rem;
+    width: 8rem;
+    font-size: large;
+  }
+
 }

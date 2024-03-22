@@ -67,5 +67,6 @@ body {
 
   background-repeat: repeat-y;
   font-family: var(--font-family);
-  width: 100vw;
+  width: 100%;
+
 }

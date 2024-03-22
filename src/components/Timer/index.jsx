@@ -7,6 +7,9 @@ function Timer() {
     <div>
       <InputWrapper />
       <DisplayWrapper />
+      <div className="display-back">
+        <img src="wave.svg" alt="" />
+      </div>
     </div>
   );
 }

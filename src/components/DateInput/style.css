@@ -32,8 +32,26 @@
 }
 
 
-@media (min-width:289px) and (max-width:400px) {
+@media (min-width:201px) and (max-width:400px) {
   #date-header {
     font-size: medium;
+  }
+}
+
+@media (min-width:401px) {
+  #date-header {
+    font-size: large;
+  }
+}
+
+@media (min-width:540px) {
+  #date-header {
+    font-size: x-large;
+
+  }
+
+  #date-time {
+    height: 2.5rem;
+    font-size: large;
   }
 }
