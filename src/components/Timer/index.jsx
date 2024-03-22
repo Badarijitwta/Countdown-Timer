@@ -1,6 +1,6 @@
 // import { useState, useEffect } from "react";
-import DisplayWrapper from "./DisplayWrapper";
-import InputWrapper from "./InputWrapper";
+import DisplayWrapper from "../Displayer/index";
+import InputWrapper from "../InputWrapper/index";
 
 function Timer() {
   return (
