@@ -16,3 +16,5 @@
   position: absolute;
   z-index: -1;
 }
+
+@media (min-width:201px) and (max-width:400px) {}

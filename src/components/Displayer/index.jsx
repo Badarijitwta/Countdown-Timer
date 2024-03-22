@@ -4,6 +4,7 @@ function DisplayWrapper() {
   return (
     <>
       <div className="display-wrapper-container">
+        <h3 id="remaining-time-header">Remaining Time</h3>
         <div className="display-wrapper-main">
           <div className="days">
             <h5>No.</h5>

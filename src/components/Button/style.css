@@ -16,3 +16,14 @@
   font-size: 0.6rem;
   font-weight: bold;
 }
+
+@media (min-width:201px) and (max-width:400px) {
+  .button-main {
+    flex-direction: row;
+
+  }
+
+  .button-main>* {
+    height: 1.7rem;
+  }
+}
