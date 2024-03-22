@@ -42,7 +42,7 @@
   text-align: center;
 }
 
-@media (min-width:289px) and (max-width:400px) {
+@media (min-width:201px) and (max-width:400px) {
   .display-wrapper-container {
     align-items: center;
   }
