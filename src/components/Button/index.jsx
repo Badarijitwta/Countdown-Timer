@@ -1,9 +1,14 @@
 import "./style.css";
-export default function Button() {
+
+export default function Button({ type, onClick, buttonText }) {
+  // const handleClick = () => {
+  //   console.log("Hlello");
+  // };
   return (
     <div className="button-main">
-      <button id="start-button">Start Timer</button>
-      <button id="rest-button">Cancel</button>
+      <button type={type} onClick={onClick}>
+        {buttonText}
+      </button>
     </div>
   );
 }
